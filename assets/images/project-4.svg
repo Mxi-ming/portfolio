@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1020" role="img" aria-label="课语通课程问答助手界面插画">
+  <rect width="900" height="1020" fill="#161513"/>
+  <rect x="0" y="0" width="900" height="10" fill="#e2472a"/>
+  <text x="60" y="100" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="40" font-weight="700" fill="#f6f3ee">课语通 · 课程问答</text>
+  <rect x="60" y="130" width="120" height="8" rx="4" fill="#e2472a"/>
+  <g>
+    <rect x="60" y="190" width="340" height="440" rx="14" fill="#f6f3ee"/>
+    <rect x="84" y="214" width="340" height="440" rx="14" fill="#e7e1d4"/>
+    <rect x="108" y="238" width="340" height="440" rx="14" fill="#fffdf8" stroke="#d8d2c8" stroke-width="2"/>
+    <rect x="136" y="274" width="180" height="18" rx="9" fill="#161513"/>
+    <rect x="136" y="316" width="284" height="10" rx="5" fill="#c9c4ba"/>
+    <rect x="136" y="342" width="260" height="10" rx="5" fill="#c9c4ba"/>
+    <rect x="136" y="368" width="274" height="10" rx="5" fill="#c9c4ba"/>
+    <rect x="136" y="394" width="200" height="10" rx="5" fill="#c9c4ba"/>
+    <rect x="136" y="436" width="120" height="30" rx="15" fill="#e7e1d4"/>
+    <text x="196" y="457" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#5a564e">第二章.pdf</text>
+    <rect x="268" y="436" width="120" height="30" rx="15" fill="#e7e1d4"/>
+    <text x="328" y="457" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#5a564e">笔记.md</text>
+    <rect x="136" y="500" width="284" height="60" rx="10" fill="#e2472a"/>
+    <text x="278" y="537" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="#fffdf8">上传资料 · 建立索引</text>
+    <rect x="136" y="590" width="284" height="8" rx="4" fill="#e7e1d4"/>
+    <rect x="136" y="590" width="190" height="8" rx="4" fill="#2f7a4f"/>
+    <text x="448" y="604" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#8a857b">索引 100%</text>
+  </g>
+  <g>
+    <rect x="440" y="190" width="400" height="66" rx="16" fill="#2b2b2e"/>
+    <text x="468" y="230" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#f6f3ee">这一章的重点是什么？</text>
+    <rect x="440" y="286" width="400" height="220" rx="16" fill="#f6f3ee"/>
+    <text x="468" y="330" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#e2472a">"</text>
+    <rect x="492" y="312" width="300" height="12" rx="6" fill="#161513"/>
+    <rect x="468" y="344" width="340" height="10" rx="5" fill="#8a857b"/>
+    <rect x="468" y="368" width="320" height="10" rx="5" fill="#8a857b"/>
+    <rect x="468" y="392" width="240" height="10" rx="5" fill="#8a857b"/>
+    <rect x="468" y="436" width="130" height="30" rx="15" fill="#e2472a" opacity=".15"/>
+    <text x="484" y="457" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#e2472a">引用 [1] · §2.3</text>
+    <rect x="440" y="536" width="400" height="94" rx="16" fill="#f6f3ee"/>
+    <rect x="468" y="562" width="220" height="12" rx="6" fill="#161513"/>
+    <rect x="468" y="590" width="300" height="10" rx="5" fill="#8a857b"/>
+  </g>
+  <g>
+    <rect x="60" y="700" width="780" height="260" rx="14" fill="#20242b" stroke="#3a3f49" stroke-width="2"/>
+    <text x="92" y="752" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#f6f3ee">知识点小测</text>
+    <rect x="92" y="778" width="240" height="8" rx="4" fill="#e2472a"/>
+    <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18">
+      <rect x="92" y="806" width="340" height="56" rx="12" fill="#2b2b2e"/>
+      <circle cx="124" cy="834" r="12" fill="none" stroke="#5a6070" stroke-width="2"/>
+      <rect x="148" y="828" width="200" height="12" rx="6" fill="#5a6070"/>
+      <rect x="452" y="806" width="340" height="56" rx="12" fill="#2b2b2e" stroke="#2f7a4f" stroke-width="2"/>
+      <circle cx="484" cy="834" r="12" fill="#2f7a4f"/>
+      <polyline points="478,834 483,840 491,828" fill="none" stroke="#f6f3ee" stroke-width="3"/>
+      <rect x="508" y="828" width="220" height="12" rx="6" fill="#8a998f"/>
+      <rect x="92" y="878" width="340" height="56" rx="12" fill="#2b2b2e"/>
+      <circle cx="124" cy="906" r="12" fill="none" stroke="#5a6070" stroke-width="2"/>
+      <rect x="148" y="900" width="180" height="12" rx="6" fill="#5a6070"/>
+    </g>
+  </g>
+  <text x="840" y="1000" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="88" fill="#f6f3ee" opacity=".2">04</text>
+</svg>

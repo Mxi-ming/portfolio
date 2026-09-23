@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1020" role="img" aria-label="城市脉搏数据可视化大屏插画">
+  <rect width="900" height="1020" fill="#101726"/>
+  <rect x="0" y="0" width="900" height="10" fill="#4fa3ff"/>
+  <text x="60" y="100" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="40" font-weight="700" fill="#f6f3ee">城市脉搏 · 实时概览</text>
+  <rect x="60" y="130" width="120" height="8" rx="4" fill="#4fa3ff"/>
+  <g>
+    <rect x="60" y="180" width="240" height="150" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <text x="84" y="240" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#4fa3ff">18°</text>
+    <rect x="84" y="270" width="120" height="10" rx="5" fill="#2a3a58"/>
+    <rect x="84" y="292" width="90" height="10" rx="5" fill="#2a3a58"/>
+    <rect x="330" y="180" width="240" height="150" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <text x="354" y="240" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#7ee08a">62%</text>
+    <rect x="354" y="270" width="120" height="10" rx="5" fill="#2a3a58"/>
+    <rect x="354" y="292" width="90" height="10" rx="5" fill="#2a3a58"/>
+    <rect x="600" y="180" width="240" height="150" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <text x="624" y="240" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#f5c04a">3.2m/s</text>
+    <rect x="624" y="270" width="120" height="10" rx="5" fill="#2a3a58"/>
+    <rect x="624" y="292" width="90" height="10" rx="5" fill="#2a3a58"/>
+  </g>
+  <g>
+    <rect x="60" y="370" width="780" height="330" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <polyline points="100,620 190,560 280,590 370,480 460,520 550,430 640,470 730,400 800,440" fill="none" stroke="#4fa3ff" stroke-width="5" stroke-linecap="round"/>
+    <polyline points="100,660 190,640 280,655 370,610 460,630 550,590 640,610 730,570 800,595" fill="none" stroke="#e2472a" stroke-width="4" stroke-dasharray="12 10"/>
+    <g fill="#4fa3ff">
+      <circle cx="190" cy="560" r="7"/><circle cx="370" cy="480" r="7"/><circle cx="550" cy="430" r="7"/><circle cx="730" cy="400" r="7"/>
+    </g>
+    <rect x="100" y="668" width="700" height="2" fill="#2a3a58"/>
+  </g>
+  <g>
+    <rect x="60" y="740" width="380" height="220" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <g fill="#2f5f9e">
+      <rect x="100" y="880" width="36" height="50"/>
+      <rect x="160" y="850" width="36" height="80" fill="#4fa3ff"/>
+      <rect x="220" y="895" width="36" height="35"/>
+      <rect x="280" y="830" width="36" height="100" fill="#4fa3ff"/>
+      <rect x="340" y="865" width="36" height="65"/>
+    </g>
+    <rect x="100" y="930" width="280" height="2" fill="#2a3a58"/>
+  </g>
+  <g>
+    <rect x="470" y="740" width="370" height="220" rx="10" fill="#182236" stroke="#2a3a58" stroke-width="2"/>
+    <circle cx="655" cy="850" r="80" fill="none" stroke="#2a3a58" stroke-width="2"/>
+    <path d="M655 850 L655 770 A80 80 0 0 1 724 890 Z" fill="#4fa3ff" opacity=".85"/>
+    <path d="M655 850 L724 890 A80 80 0 0 1 586 892 Z" fill="#f5c04a" opacity=".8"/>
+    <circle cx="655" cy="850" r="10" fill="#f6f3ee"/>
+  </g>
+  <text x="840" y="1000" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="88" fill="#f6f3ee" opacity=".18">03</text>
+</svg>

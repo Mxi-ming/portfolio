@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="个人标识插画">
+  <rect width="800" height="1000" fill="#161513"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#f6f3ee" stroke-opacity=".25" stroke-width="2"/>
+  <circle cx="400" cy="380" r="150" fill="#efe9dd"/>
+  <circle cx="400" cy="330" r="62" fill="#161513"/>
+  <path d="M290 470 a110 110 0 0 1 220 0 l0 40 -220 0 Z" fill="#161513"/>
+  <rect x="330" y="520" width="140" height="26" fill="#e2472a"/>
+  <text x="400" y="700" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="110" fill="#f6f3ee">XM</text>
+  <text x="400" y="760" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" letter-spacing="10" fill="#f6f3ee" opacity=".7">小明</text>
+  <rect x="340" y="800" width="120" height="8" rx="4" fill="#e2472a"/>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="24" letter-spacing="6" fill="#f6f3ee" opacity=".5">PORTFOLIO 2026</text>
+</svg>

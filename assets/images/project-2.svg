@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" role="img" aria-label="拾光集市校园二手交易平台界面插画">
+  <rect width="1600" height="850" fill="#edf0e8"/>
+  <rect x="130" y="80" width="1340" height="690" rx="16" fill="#ffffff" stroke="#161513" stroke-width="3"/>
+  <path d="M130 96 a16 16 0 0 1 16-16 h1308 a16 16 0 0 1 16 16 v50 h-1340 z" fill="#161513"/>
+  <circle cx="176" cy="113" r="8" fill="#e2472a"/>
+  <circle cx="204" cy="113" r="8" fill="#5a564e"/>
+  <circle cx="232" cy="113" r="8" fill="#5a564e"/>
+  <rect x="270" y="100" width="660" height="27" rx="13.5" fill="#f0ede6"/>
+  <rect x="170" y="170" width="210" height="560" fill="#f6f3ee"/>
+  <rect x="196" y="210" width="120" height="14" rx="7" fill="#161513"/>
+  <rect x="196" y="250" width="150" height="10" rx="5" fill="#c9c4ba"/>
+  <rect x="196" y="276" width="130" height="10" rx="5" fill="#c9c4ba"/>
+  <rect x="196" y="302" width="146" height="10" rx="5" fill="#c9c4ba"/>
+  <rect x="196" y="340" width="158" height="34" rx="17" fill="#2f7a4f"/>
+  <g>
+    <rect x="420" y="170" width="310" height="260" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <rect x="438" y="188" width="274" height="150" rx="8" fill="#cfdcC2"/>
+    <rect x="438" y="356" width="170" height="14" rx="7" fill="#161513"/>
+    <rect x="438" y="382" width="90" height="18" rx="9" fill="#2f7a4f"/>
+    <rect x="420" y="460" width="310" height="260" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <rect x="438" y="478" width="274" height="150" rx="8" fill="#d7d3c9"/>
+    <rect x="438" y="646" width="150" height="14" rx="7" fill="#161513"/>
+    <rect x="438" y="672" width="80" height="18" rx="9" fill="#2f7a4f"/>
+  </g>
+  <g>
+    <rect x="760" y="170" width="310" height="260" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <rect x="778" y="188" width="274" height="150" rx="8" fill="#e3ded2"/>
+    <rect x="778" y="356" width="190" height="14" rx="7" fill="#161513"/>
+    <rect x="778" y="382" width="100" height="18" rx="9" fill="#2f7a4f"/>
+    <rect x="760" y="460" width="310" height="260" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <rect x="778" y="478" width="274" height="150" rx="8" fill="#cfd8d2"/>
+    <rect x="778" y="646" width="130" height="14" rx="7" fill="#161513"/>
+    <rect x="778" y="672" width="86" height="18" rx="9" fill="#2f7a4f"/>
+  </g>
+  <g>
+    <rect x="1100" y="170" width="330" height="260" rx="12" fill="#161513"/>
+    <rect x="1124" y="200" width="150" height="16" rx="8" fill="#f6f3ee"/>
+    <rect x="1124" y="238" width="280" height="10" rx="5" fill="#5a564e"/>
+    <rect x="1124" y="260" width="250" height="10" rx="5" fill="#5a564e"/>
+    <rect x="1124" y="300" width="120" height="40" rx="20" fill="#e2472a"/>
+    <rect x="1100" y="460" width="330" height="120" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <circle cx="1150" cy="520" r="30" fill="#c9c4ba"/>
+    <rect x="1200" y="498" width="180" height="12" rx="6" fill="#161513"/>
+    <rect x="1200" y="526" width="140" height="10" rx="5" fill="#c9c4ba"/>
+    <rect x="1100" y="600" width="330" height="120" rx="12" fill="#f6f3ee" stroke="#d8d2c8" stroke-width="2"/>
+    <circle cx="1150" cy="660" r="30" fill="#c9c4ba"/>
+    <rect x="1200" y="638" width="160" height="12" rx="6" fill="#161513"/>
+    <rect x="1200" y="666" width="120" height="10" rx="5" fill="#c9c4ba"/>
+  </g>
+  <text x="1500" y="826" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="110" fill="#161513" opacity=".18">02</text>
+</svg>
