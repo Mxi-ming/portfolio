@@ -74,6 +74,37 @@ function renderProfile() {
   if (year) year.textContent = new Date().getFullYear();
 }
 
+/* ---------- 深浅色主题切换 ---------- */
+const THEME_KEY = "xm-portfolio-theme";
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  const btn = document.getElementById("themeToggle");
+  if (btn) {
+    btn.setAttribute("aria-label", theme === "dark" ? "切换到浅色主题" : "切换到深色主题");
+  }
+}
+
+function setupTheme() {
+  // 优先读取用户上次的选择，否则跟随系统偏好
+  let theme = null;
+  try { theme = localStorage.getItem(THEME_KEY); } catch (e) { /* 隐私模式下可能不可用 */ }
+  if (theme !== "dark" && theme !== "light") {
+    theme = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ? "dark" : "light";
+  }
+  applyTheme(theme);
+
+  document.getElementById("themeToggle").addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    applyTheme(next);
+    try { localStorage.setItem(THEME_KEY, next); } catch (e) { /* 同上 */ }
+  });
+}
+
+// 主题需在页面绘制前立刻生效以避免闪烁，故不在 DOMContentLoaded 内调用
+setupTheme();
+
 /* ---------- 顶栏：滚动状态 + 移动端菜单 + 区块高亮 ---------- */
 function setupHeader() {
   const header = document.getElementById("siteHeader");

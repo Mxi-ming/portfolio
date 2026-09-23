@@ -6,6 +6,7 @@
 
 /* ---------- 变量与基础 ---------- */
 :root {
+  color-scheme: light;
   --bg: #f6f3ee;              /* 暖白纸感底色 */
   --ink: #161513;             /* 近黑正文 */
   --ink-60: rgba(22, 21, 19, .64);
@@ -14,11 +15,26 @@
   --accent: #e2472a;          /* 朱红强调色 */
   --paper-dark: #161513;      /* 深色区块底 */
   --paper-dark-text: #f6f3ee;
+  --header-bg: rgba(246, 243, 238, .88);   /* 顶栏滚动后底色 */
+  --media-bg: #e7e1d6;                     /* 项目图片占位底色 */
   --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
   --font-serif: Georgia, "Times New Roman", "Songti SC", "SimSun", serif;
   --container: 1280px;
   --gutter: clamp(20px, 4vw, 48px);
   --header-h: 72px;
+}
+
+/* 深色主题：仅替换颜色变量，其余样式自动继承 */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #131110;              /* 暖黑纸感底色 */
+  --ink: #ece7df;             /* 近白正文 */
+  --ink-60: rgba(236, 231, 223, .66);
+  --ink-30: rgba(236, 231, 223, .36);
+  --line: rgba(236, 231, 223, .17);
+  --paper-dark: #0a0908;      /* 深色区块底（比页面更深一档） */
+  --header-bg: rgba(19, 17, 16, .88);
+  --media-bg: #201c19;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -36,6 +52,7 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  transition: background-color .3s ease, color .3s ease;
 }
 
 img { display: block; max-width: 100%; }
@@ -63,7 +80,7 @@ button { font-family: inherit; }
   border-bottom: 1px solid transparent;
 }
 .site-header.is-scrolled {
-  background: rgba(246, 243, 238, .88);
+  background: var(--header-bg);
   backdrop-filter: blur(10px);
   border-bottom-color: var(--line);
 }
@@ -119,6 +136,38 @@ button { font-family: inherit; }
 }
 body.nav-open .nav-toggle span:nth-child(1) { transform: translateY(4px) rotate(45deg); }
 body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-4px) rotate(-45deg); }
+
+/* 顶栏右侧操作区：主题切换 + 移动端菜单按钮 */
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px; height: 38px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink-60);
+  cursor: pointer;
+  transition: color .2s, border-color .2s;
+}
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.theme-toggle svg {
+  width: 17px; height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+/* 浅色显示月亮（点击去深色），深色显示太阳 */
+.theme-toggle .icon-moon { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 
 /* ---------- 首屏 ---------- */
 .hero {
@@ -254,7 +303,7 @@ body.nav-open .nav-toggle span:nth-child(2) { transform: translateY(-4px) rotate
 
 .project__media {
   overflow: hidden;
-  background: #e7e1d6;
+  background: var(--media-bg);
 }
 .project__media img {
   width: 100%;
